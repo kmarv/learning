@@ -6,6 +6,7 @@ import CardPie from "./components/CardPie";
 import DataFetching from "./components/DataFetching";
 import './App.css'
 import CardSlider from "./components/CardSlider";
+import Example from "./components/Example";
 function App() {
   const [tasks, setTasks] = useState([
     {
@@ -55,6 +56,7 @@ const addTask =(task) =>{
         "No Tasks To Show"
       )} */}
         <CardSlider />
+        <Example />
       {/* <DataFetching /> */}
     </div>
   );
