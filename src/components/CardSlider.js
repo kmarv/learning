@@ -2,6 +2,9 @@ import React, { useState, useCallback, useEffect, useMemo } from "react";
 import Carousel from "react-elastic-carousel";
 import { Paper, Button, Typography } from "@mui/material";
 
+
+// React Carousel with keyboard navigation
+
 function CardSlider(props) {
   const items = useMemo(
     () => [
@@ -61,15 +64,15 @@ function CardSlider(props) {
   );
 }
 
-function Item(props) {
-  return (
-    <Paper style={{ width: "600px", marginLeft: "600px" }}>
-      <h2>{props.item.name}</h2>
-      <h2>{props.item.description}</h2>
+// function Item(props) {
+//   return (
+//     <Paper style={{ width: "600px", marginLeft: "600px" }}>
+//       <h2>{props.item.name}</h2>
+//       <h2>{props.item.description}</h2>
 
-      <Button className="CheckButton">Check it out!</Button>
-    </Paper>
-  );
-}
+//       <Button className="CheckButton">Check it out!</Button>
+//     </Paper>
+//   );
+// }
 
 export default CardSlider;
