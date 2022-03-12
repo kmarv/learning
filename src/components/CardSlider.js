@@ -52,7 +52,10 @@ function CardSlider(props) {
       autoPlay={false}
     >
       {items.map((item, i) => (
+        // calling a component
         // <Item key={i} item={items[activeChild]} />
+
+        // inline propss
         <Paper style={{ width: "600px", marginLeft: "600px" }} >
           <h2>{items[activeChild].name}</h2>
           <h2>{items[activeChild].description}</h2>

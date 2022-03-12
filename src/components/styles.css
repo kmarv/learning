@@ -1,4 +1,39 @@
-.CardPie {
-    font-family: sans-serif;
-    text-align: center;
-  }
+
+
+.Tes [type="text" i]  {
+  width: 50px;
+  height: 50px;
+  margin: 3px;
+  border: 2px solid black;
+  border-radius: 5px;
+  align-items: center;
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+  border-style: outset;
+}
+
+.Tes [type="text" i] :focus {
+  background: #2ca8ff;
+  color: #000000;
+}
+
+.t-btn {
+  display: inline-block;
+  padding: 0.5rem 2rem;
+  font: inherit;
+  font-weight: bold;
+  border-radius: 2rem;
+  background: #2ca8ff;
+  color: #ffffff;
+  min-width: 1rem;
+  cursor: pointer;
+  border: none;
+  margin-left: 250px;
+
+}
+.t-btn:hover,
+.t-btn:focus {
+  background: #2ca8ff;
+  color: #000000;
+}
